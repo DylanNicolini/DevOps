@@ -38,7 +38,7 @@ jobs:
           
       - name: Build
         run: |
-          npm run build -- --configuration production
+          npm run build -- --configuration production --output-path docs --base-href /devops/
           
           
       - name: Conventional Changelog Action
